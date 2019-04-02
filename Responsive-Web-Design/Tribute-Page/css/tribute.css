@@ -1,0 +1,12 @@
+html {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align: center;
+}
+
+img {
+    display: block;
+    height: auto;
+    margin: auto;
+    max-width: 50%;
+}
+
