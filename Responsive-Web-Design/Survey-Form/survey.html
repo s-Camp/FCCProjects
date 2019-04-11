@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="../../css/sanitize.css">
+        <link rel="stylesheet" type="text/css" href="./css/survey.css">
+        <title id="title">Survey Form</title>
+    </head>
+    <body>
+        <h1 id="title">Survey Form</h1>
+        <div>
+            <p>Let us know how we can improve FreeCodeCamp</p>
+            <form id="survery-form">
+                <div class="rows">
+                    <div class="labels">
+                        <label for="name" id="name-label">* Name</label>
+                    </div>
+                    <div class="inputs">
+                        <input autofocus type="text" id="name" placeholder="Enter your name" required>
+                    </div>
+                </div>
+                <div class="rows">
+                    <div class="labels">
+                        <label for="email" id="email-label">* Email</label>
+                    </div>
+                    <div class="inputs">
+                        <input type="email" id="email" placeholder="Enter your email" required>
+                    </div>
+                </div>
+                <div class="rows">
+                    <div class="labels">
+                        <label for="age" id="age-label">* Age</label>
+                    </div>
+                    <div class="inputs">
+                        <input type="number" id="age" placeholder="Age" min="1" max="120" required>
+                    </div>
+                </div>
+                <div class="rows">
+                    <div class="labels">
+                        <label for="current">What best describes your current role?</label>
+                    </div>
+                    <div class="inputs">
+                        <select id="dropdown" name="current" class="dropdown">
+                            <option disabled value>Select an option</option>
+                            <option value="student">Student</option>
+                            <option value="job">Full time job</option>
+                            <option value="learner">Full time learner</option>
+                            <option value="preferNot">Prefer not to say</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="rows">
+                    <div class="labels">
+                        <label for="recommend">Would you recommend FreeCodeCamp to a friend?</label>
+                    </div>
+                    <div class="inputs">
+                        <ul>
+                            <li>
+                                <input type="radio" id="recommendChoice1" name="recommend" value="definitely">
+                                <label for="recommendChoice1">Definitely</label>
+                            </li>
+                            <li>
+                                <input type="radio" id="recommendChoice2" name="recommend" value="maybe">
+                                <label for="recommendChoice2">Maybe</label>
+                            </li>
+                            <li>
+                                <input type="radio" id="recommendChoice3" name="recommend" value="notSure">
+                                <label for="recommendChoice3">Not sure</label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="rows">
+                    <div class="labels">
+                        <label for="most-liked">What do you like best about FCC?</label>
+                    </div>
+                    <div class="inputs">
+                        <select id="most-liked" name="mostLiked" class="dropdown">
+                            <option disabled value>Select an option</option>
+                            <option value="challenges">Challenges</option>
+                            <option value="Projects">Projects</option>
+                            <option value="Community">Community</option>
+                            <option value="openSource">Open Source</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="rows">
+                    <div class="labels">
+                        <label for="improve">Things that could be improved (Check all that apply):</label>
+                    </div>
+                    <div class="inputs">
+                        <ul>
+                            <li>
+                                <input type="checkbox" id="improveFrontEndProjects" name="improve" value="frontEndProjects">
+                                <label for="improveFrontEndProjects">Front-end Projects</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="improveBackEndProjects" name="improve" value="backEndProjects">
+                                <label for="improveBackEndProjects">Back-end Projects</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="improveDataVisualization" name="improve" value="dataVisualization">
+                                <label for="improveDataVisualization">Data Visualization</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="improveChallenges" name="improve" value="challenges">
+                                <label for="improveChallenges">Challenges</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="improveOpenSourceCommunity" name="improve" value="openSourceCommunity">
+                                <label for="improveOpenSourceCommunity">Open Source Community</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="improveGlitterHelpRooms" name="improve" value="glitterHelpRooms">
+                                <label for="improveGlitterHelpRooms">Glitter Help Rooms</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="improveVideos" name="improve" value="videos">
+                                <label for="improveVideos">Videos</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="improveCityMeetups" name="improve" value="cityMeetups">
+                                <label for="improveCityMeetups">City Meetups</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="improveWiki" name="improve" value="wiki">
+                                <label for="improveWiki">Wiki</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="improveForums" name="improve" value="forums">
+                                <label for="improveForums">Forums</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="improveAdditionalCourses" name="improve" value="additionalCourses">
+                                <label for="improveAdditionalCourses">Additional Courses</label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="rows">
+                    <div class="labels">
+                        <label for="comments">Any comments or suggestions?</label>
+                    </div>
+                    <div class="inputs">
+                        <textarea name="comments" id="comments" cols="30" rows="3" placeholder="Enter your comment here..."></textarea>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

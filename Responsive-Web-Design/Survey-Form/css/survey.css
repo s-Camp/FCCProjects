@@ -1,0 +1,36 @@
+body {
+    background-color: blanchedalmond;
+    text-align: center;
+}
+
+form {
+    background-color: white;
+    margin: 0% auto;
+    text-align: center;
+    width: 60%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+label {
+    
+}
+
+.rows {
+
+}
+
+.labels {
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;
+    width: 40%;
+}
+
+.inputs {
+    display: inline-block;
+    text-align: left;
+    width: 40%;
+}
