@@ -1,29 +1,42 @@
 body {
-    background-color: blanchedalmond;
-    text-align: center;
-}
+    background-color: #a9d7d1;
 
-form {
-    background-color: white;
-    margin: 0% auto;
     text-align: center;
-    width: 60%;
 }
 
 ul {
+    display: inline-block;
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
 }
 
-label {
-    
+li {
+    margin-top: 5px;
+    padding-top: 2px;
 }
 
-.rows {
+p {
+    padding-top: 26px;
+}
 
+li label {
+    vertical-align: top;
+}
+
+.formArea {
+    background-color: white;
+    margin: 0% auto;
+    text-align: center;
+    width: 50%;
+    margin-bottom: 15px;
 }
 
 .labels {
     display: inline-block;
+    padding: 5px 5px 5px 0;
+    margin-top: 10px;
     text-align: right;
     vertical-align: top;
     width: 40%;
@@ -31,6 +44,27 @@ label {
 
 .inputs {
     display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
     text-align: left;
     width: 40%;
+    vertical-align: top;
+}
+
+.inputField {
+    height: 20px;
+}
+
+.rows {
+    padding-top: 5px;
+}
+
+#submit { 
+    background-color: #59ace0;
+    border: 0 solid;
+    border-radius: 3px;
+    color: white;  
+    height: 40px;
+    margin: 20px;
+    width: 96px;
 }
